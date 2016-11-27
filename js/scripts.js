@@ -15,9 +15,3 @@ function rysujChoinkę(n) {
 }
 h = prompt('Podaj wysokość choinki'),
 console.log(rysujChoinkę(h));
-
-function zaalertuj() {
-    alert('Wyświetlam się jednokrotnie po 2 sekundach.');
-}
-
-var opoznioneWywolanie = setTimeout(zaalertuj, 2000);
